@@ -4,4 +4,8 @@ for i in 1..100
          elsif i/3==0 then
                  puts "Fizz"
          elsif i/5==0 then
-                 puts "Buzz"  
+                 puts "Buzz"
+         else
+                 printf("%d\n",i)
+         end
+end
